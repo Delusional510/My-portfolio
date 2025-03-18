@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="glitch">SICK ASS DESIGNS</h1>
+        <p>Dynamic. Bold. Unforgettable.</p>
+    </header>
+    
+    <section id="about">
+        <h2>Bringing Ideas to Life</h2>
+        <p>Expert in <span class="highlight">graphic design</span> and <span class="highlight">website building</span>. I craft sleek, high-impact digital experiences.</p>
+    </section>
+
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Bold Branding</h3>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Dynamic Web Design</h3>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>Interactive UI</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Let’s build something amazing together.</p>
+        <a href="mailto:delusionalllc@gmail.com" class="cta">Get in Touch</a>
+    </footer>
+</body>
+</html>
